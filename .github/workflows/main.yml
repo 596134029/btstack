@@ -26,7 +26,7 @@ jobs:
       run: | 
         echo `pwd`
         ls
-        cd btstack/port/windows-h4
+        cd port/windows-h4
         mkdir build
         cd build
     - name: Build
