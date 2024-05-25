@@ -31,8 +31,7 @@ jobs:
         ls
     - name: cmake config
       run: 
+        cd port/windows-h4
         cmake -B build
-        echo `pwd`
-        ls
     - name: Build
       run: cmake --build build
