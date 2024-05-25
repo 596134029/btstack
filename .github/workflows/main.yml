@@ -9,7 +9,7 @@ jobs:
       MINGW_PATH: C:\msys64\mingw64\bin
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Set up MinGWcd port/windows-h4
       uses: msys2/setup-msys2@v2
       with:
