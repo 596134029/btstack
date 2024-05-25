@@ -30,6 +30,6 @@ jobs:
         mkdir build
         cd build
     - name: Build
-      run: cmake ..
+      run: cmake ../
     - name: Run tests
       run: make
