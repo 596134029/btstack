@@ -24,6 +24,8 @@ jobs:
       run: echo "$MINGW_PATH" >> $GITHUB_PATH
     - name: Configure CMake
       run: | 
+        pwd
+        ls
         cd cd port/windows-h4
         mkdir build
         cd build
