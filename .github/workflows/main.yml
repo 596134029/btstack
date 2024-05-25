@@ -27,9 +27,8 @@ jobs:
         echo `pwd`
         ls
         cd port/windows-h4
-        mkdir build
-        cd build
+        echo `ls`
+    - name: cmake config
+      run: cmake -B build
     - name: Build
-      run: cmake ../
-    - name: Run tests
-      run: make
+      run: cmake --build build
